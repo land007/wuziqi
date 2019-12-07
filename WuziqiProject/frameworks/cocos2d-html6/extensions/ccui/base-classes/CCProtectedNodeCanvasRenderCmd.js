@@ -1,0 +1,212 @@
+(function() {
+    cc.ProtectedNode.RenderCmd = {
+        _updateDisplayColor: function(parentColor) {
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->4");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->5");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->6");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->7");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->8");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->9");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->10");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->11");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->12");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->13");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->14");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->15");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->16");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->17");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->18");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->19");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->20");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->21");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->22");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->23");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->24");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->25");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->26");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->27");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->28");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->29");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->30");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->31");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->32");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->33");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->34");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->35");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->36");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->37");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->38");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->39");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->40");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->41");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->42");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->43");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->44");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->45");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->46");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->47");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->48");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->49");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->50");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->51");
+        },
+        _updateDisplayOpacity: function(parentOpacity) {
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->54");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->55");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->56");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->57");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->58");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->59");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->60");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->61");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->62");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->63");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->64");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->65");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->66");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->67");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->68");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->69");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->70");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->71");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->72");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->73");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->74");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->75");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->76");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->77");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->78");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->79");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->80");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->81");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->82");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->83");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->84");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->85");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->86");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->87");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->88");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->89");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->90");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->91");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->92");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->93");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->94");
+        },
+        _changeProtectedChild: function(child) {
+            var cmd = child._renderCmd, dirty = cmd._dirtyFlag, flags = cc.Node._dirtyFlags;
+            if (this._dirtyFlag & flags.colorDirty) {
+                dirty |= flags.colorDirty;
+            }
+            if (this._dirtyFlag & flags.opacityDirty) {
+                dirty |= flags.opacityDirty;
+            }
+            var colorDirty = dirty & flags.colorDirty, opacityDirty = dirty & flags.opacityDirty;
+            if (colorDirty) {
+                cmd._updateDisplayColor(this._displayedColor);
+            }
+            if (opacityDirty) {
+                cmd._updateDisplayOpacity(this._displayedOpacity);
+            }
+            if (colorDirty || opacityDirty) {
+                cmd._updateColor();
+            }
+        }
+    };
+    cc.ProtectedNode.CanvasRenderCmd = function(renderable) {
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->117");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->118");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->119");
+    };
+    var proto = cc.ProtectedNode.CanvasRenderCmd.prototype = Object.create(cc.Node.CanvasRenderCmd.prototype);
+    cc.inject(cc.ProtectedNode.RenderCmd, proto);
+    proto.constructor = cc.ProtectedNode.CanvasRenderCmd;
+    proto.visit = function(parentCmd) {
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->125");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->126");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->127");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->128");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->129");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->130");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->131");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->132");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->133");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->134");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->135");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->136");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->137");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->138");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->139");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->140");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->141");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->142");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->143");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->144");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->145");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->146");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->147");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->148");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->149");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->150");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->151");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->152");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->153");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->154");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->155");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->156");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->157");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->158");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->159");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->160");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->161");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->162");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->163");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->164");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->165");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->166");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->167");
+    };
+    proto.transform = function(parentCmd, recursive) {
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->170");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->171");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->172");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->173");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->174");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->175");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->176");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->177");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->178");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->179");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->180");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->181");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->182");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->183");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->184");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->185");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->186");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->187");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->188");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->189");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->190");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->191");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->192");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->193");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->194");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->195");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->196");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->197");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->198");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->199");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->200");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->201");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->202");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->203");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->204");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->205");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->206");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->207");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->208");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->209");
+console.log("/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js->210");
+    };
+})();

@@ -1,0 +1,32 @@
+cc.MotionStreak.WebGLRenderCmd = function(renderableObject) {
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->2");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->3");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->4");
+};
+cc.MotionStreak.WebGLRenderCmd.prototype = Object.create(cc.Node.WebGLRenderCmd.prototype);
+cc.MotionStreak.WebGLRenderCmd.prototype.constructor = cc.Sprite.WebGLRenderCmd;
+cc.MotionStreak.WebGLRenderCmd.prototype.rendering = function(ctx) {
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->9");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->10");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->11");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->12");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->13");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->14");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->15");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->16");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->17");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->18");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->19");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->20");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->21");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->22");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->23");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->24");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->25");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->26");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->27");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->28");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->29");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->30");
+console.log("/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreakWebGLRenderCmd.js->31");
+};

@@ -1,0 +1,10 @@
+var ccs = ccs || {};
+ccs.Class = ccs.Class || cc.Class;
+ccs.Class.extend = ccs.Class.extend || cc.Class.extend;
+ccs.Node = ccs.Node || cc.Node;
+ccs.Node.extend = ccs.Node.extend || cc.Node.extend;
+ccs.Sprite = ccs.Sprite || cc.Sprite;
+ccs.Sprite.extend = ccs.Sprite.extend || cc.Sprite.extend;
+ccs.Component = ccs.Component || cc.Component;
+ccs.Component.extend = ccs.Component.extend || cc.Component.extend;
+ccs.cocostudioVersion = "v1.3.0.0";

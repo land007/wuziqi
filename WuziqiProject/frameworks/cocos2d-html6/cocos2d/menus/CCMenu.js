@@ -1,0 +1,403 @@
+cc.MENU_STATE_WAITING = 0;
+cc.MENU_STATE_TRACKING_TOUCH = 1;
+cc.MENU_HANDLER_PRIORITY = -128;
+cc.DEFAULT_PADDING = 5;
+cc.Menu = cc.Layer.extend({
+    enabled: false,
+    _selectedItem: null,
+    _state: -1,
+    _touchListener: null,
+    _className: "Menu",
+    ctor: function(menuItems) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->12");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->13");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->14");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->15");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->16");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->17");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->18");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->19");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->20");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->21");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->22");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->23");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->24");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->25");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->26");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->27");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->28");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->29");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->30");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->31");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->32");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->33");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->34");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->35");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->36");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->37");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->38");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->39");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->40");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->41");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->42");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->43");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->44");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->45");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->46");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->47");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->48");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->49");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->50");
+    },
+    onEnter: function() {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->53");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->54");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->55");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->56");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->57");
+    },
+    isEnabled: function() {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->60");
+    },
+    setEnabled: function(enabled) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->63");
+    },
+    initWithItems: function(args) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->66");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->67");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->68");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->69");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->70");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->71");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->72");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->73");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->74");
+    },
+    initWithArray: function(arrayOfItems) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->77");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->78");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->79");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->80");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->81");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->82");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->83");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->84");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->85");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->86");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->87");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->88");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->89");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->90");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->91");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->92");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->93");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->94");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->95");
+    },
+    addChild: function(child, zOrder, tag) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->98");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->99");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->100");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->101");
+    },
+    alignItemsVertically: function() {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->104");
+    },
+    alignItemsVerticallyWithPadding: function(padding) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->107");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->108");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->109");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->110");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->111");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->112");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->113");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->114");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->115");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->116");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->117");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->118");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->119");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->120");
+    },
+    alignItemsHorizontally: function() {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->123");
+    },
+    alignItemsHorizontallyWithPadding: function(padding) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->126");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->127");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->128");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->129");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->130");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->131");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->132");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->133");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->134");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->135");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->136");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->137");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->138");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->139");
+    },
+    alignItemsInColumns: function() {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->142");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->143");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->144");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->145");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->146");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->147");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->148");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->149");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->150");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->151");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->152");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->153");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->154");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->155");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->156");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->157");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->158");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->159");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->160");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->161");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->162");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->163");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->164");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->165");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->166");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->167");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->168");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->169");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->170");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->171");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->172");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->173");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->174");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->175");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->176");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->177");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->178");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->179");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->180");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->181");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->182");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->183");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->184");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->185");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->186");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->187");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->188");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->189");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->190");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->191");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->192");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->193");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->194");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->195");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->196");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->197");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->198");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->199");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->200");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->201");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->202");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->203");
+    },
+    alignItemsInRows: function() {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->206");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->207");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->208");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->209");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->210");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->211");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->212");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->213");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->214");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->215");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->216");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->217");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->218");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->219");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->220");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->221");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->222");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->223");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->224");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->225");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->226");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->227");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->228");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->229");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->230");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->231");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->232");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->233");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->234");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->235");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->236");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->237");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->238");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->239");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->240");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->241");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->242");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->243");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->244");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->245");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->246");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->247");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->248");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->249");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->250");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->251");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->252");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->253");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->254");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->255");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->256");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->257");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->258");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->259");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->260");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->261");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->262");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->263");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->264");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->265");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->266");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->267");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->268");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->269");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->270");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->271");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->272");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->273");
+    },
+    removeChild: function(child, cleanup) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->276");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->277");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->278");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->279");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->280");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->281");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->282");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->283");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->284");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->285");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->286");
+    },
+    _onTouchBegan: function(touch, event) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->289");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->290");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->291");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->292");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->293");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->294");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->295");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->296");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->297");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->298");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->299");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->300");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->301");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->302");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->303");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->304");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->305");
+    },
+    _onTouchEnded: function(touch, event) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->308");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->309");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->310");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->311");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->312");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->313");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->314");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->315");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->316");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->317");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->318");
+    },
+    _onTouchCancelled: function(touch, event) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->321");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->322");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->323");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->324");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->325");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->326");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->327");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->328");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->329");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->330");
+    },
+    _onTouchMoved: function(touch, event) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->333");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->334");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->335");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->336");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->337");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->338");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->339");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->340");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->341");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->342");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->343");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->344");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->345");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->346");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->347");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->348");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->349");
+    },
+    onExit: function() {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->352");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->353");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->354");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->355");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->356");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->357");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->358");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->359");
+    },
+    setOpacityModifyRGB: function(value) {},
+    isOpacityModifyRGB: function() {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->363");
+    },
+    _itemForTouch: function(touch) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->366");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->367");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->368");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->369");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->370");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->371");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->372");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->373");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->374");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->375");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->376");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->377");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->378");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->379");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->380");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->381");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->382");
+    }
+});
+var _p = cc.Menu.prototype;
+_p.enabled;
+cc.Menu.create = function(menuItems) {
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->388");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->389");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->390");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->391");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->392");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->393");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->394");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->395");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->396");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->397");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->398");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->399");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->400");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->401");
+console.log("/frameworks/cocos2d-html5/cocos2d/menus/CCMenu.js->402");
+};

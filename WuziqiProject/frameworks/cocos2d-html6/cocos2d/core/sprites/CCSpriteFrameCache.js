@@ -1,0 +1,228 @@
+cc.spriteFrameCache = {
+    _CCNS_REG1: /^\s*\{\s*([\-]?\d+[.]?\d*)\s*,\s*([\-]?\d+[.]?\d*)\s*\}\s*$/,
+    _CCNS_REG2: /^\s*\{\s*\{\s*([\-]?\d+[.]?\d*)\s*,\s*([\-]?\d+[.]?\d*)\s*\}\s*,\s*\{\s*([\-]?\d+[.]?\d*)\s*,\s*([\-]?\d+[.]?\d*)\s*\}\s*\}\s*$/,
+    _spriteFrames: {},
+    _spriteFramesAliases: {},
+    _frameConfigCache: {},
+    _rectFromString: function(content) {
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->8");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->9");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->10");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->11");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->12");
+    },
+    _pointFromString: function(content) {
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->15");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->16");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->17");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->18");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->19");
+    },
+    _sizeFromString: function(content) {
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->22");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->23");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->24");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->25");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->26");
+    },
+    _getFrameConfig: function(url) {
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->29");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->30");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->31");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->32");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->33");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->34");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->35");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->36");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->37");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->38");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->39");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->40");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->41");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->42");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->43");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->44");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->45");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->46");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->47");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->48");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->49");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->50");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->51");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->52");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->53");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->54");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->55");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->56");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->57");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->58");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->59");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->60");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->61");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->62");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->63");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->64");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->65");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->66");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->67");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->68");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->69");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->70");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->71");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->72");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->73");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->74");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->75");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->76");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->77");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->78");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->79");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->80");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->81");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->82");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->83");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->84");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->85");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->86");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->87");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->88");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->89");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->90");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->91");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->92");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->93");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->94");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->95");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->96");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->97");
+    },
+    addSpriteFrames: function(url, texture) {
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->100");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->101");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->102");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->103");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->104");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->105");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->106");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->107");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->108");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->109");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->110");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->111");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->112");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->113");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->114");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->115");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->116");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->117");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->118");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->119");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->120");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->121");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->122");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->123");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->124");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->125");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->126");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->127");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->128");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->129");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->130");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->131");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->132");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->133");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->134");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->135");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->136");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->137");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->138");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->139");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->140");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->141");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->142");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->143");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->144");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->145");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->146");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->147");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->148");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->149");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->150");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->151");
+    },
+    _checkConflict: function(dictionary) {
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->154");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->155");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->156");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->157");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->158");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->159");
+    },
+    addSpriteFrame: function(frame, frameName) {
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->162");
+    },
+    removeSpriteFrames: function() {
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->165");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->166");
+    },
+    removeSpriteFrameByName: function(name) {
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->169");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->170");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->171");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->172");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->173");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->174");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->175");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->176");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->177");
+    },
+    removeSpriteFramesFromFile: function(url) {
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->180");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->181");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->182");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->183");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->184");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->185");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->186");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->187");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->188");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->189");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->190");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->191");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->192");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->193");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->194");
+    },
+    removeSpriteFramesFromTexture: function(texture) {
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->197");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->198");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->199");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->200");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->201");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->202");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->203");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->204");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->205");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->206");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->207");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->208");
+    },
+    getSpriteFrame: function(name) {
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->211");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->212");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->213");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->214");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->215");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->216");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->217");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->218");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->219");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->220");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->221");
+    },
+    _clear: function() {
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->224");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->225");
+console.log("/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js->226");
+    }
+};

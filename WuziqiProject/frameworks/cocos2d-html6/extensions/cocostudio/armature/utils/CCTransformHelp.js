@@ -1,0 +1,93 @@
+ccs.TransformHelp = ccs.TransformHelp || ccs.Class.extend({});
+ccs.TransformHelp.helpMatrix1 = cc.affineTransformMake(1, 0, 0, 1, 0, 0);
+ccs.TransformHelp.helpMatrix2 = cc.affineTransformMake(1, 0, 0, 1, 0, 0);
+ccs.TransformHelp.helpPoint1 = cc.p(0, 0);
+ccs.TransformHelp.helpPoint2 = cc.p(0, 0);
+ccs.TransformHelp.helpParentNode = {};
+ccs.TransformHelp.transformFromParent = function(bone, parentNode) {
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->8");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->9");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->10");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->11");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->12");
+};
+ccs.TransformHelp.transformToParent = function(node, parentNode) {
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->15");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->16");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->17");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->18");
+};
+ccs.TransformHelp.transformFromParentWithoutScale = function(node, parentNode) {
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->21");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->22");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->23");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->24");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->25");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->26");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->27");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->28");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->29");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->30");
+};
+ccs.TransformHelp.transformToParentWithoutScale = function(node, parentNode) {
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->33");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->34");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->35");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->36");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->37");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->38");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->39");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->40");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->41");
+};
+ccs.TransformHelp.nodeToMatrix = function(node, matrix) {
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->44");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->45");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->46");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->47");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->48");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->49");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->50");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->51");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->52");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->53");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->54");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->55");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->56");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->57");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->58");
+};
+ccs.TransformHelp.matrixToNode = function(matrix, node) {
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->61");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->62");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->63");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->64");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->65");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->66");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->67");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->68");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->69");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->70");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->71");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->72");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->73");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->74");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->75");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->76");
+};
+ccs.TransformHelp.nodeConcat = function(target, source) {
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->79");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->80");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->81");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->82");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->83");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->84");
+};
+ccs.TransformHelp.nodeSub = function(target, source) {
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->87");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->88");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->89");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->90");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->91");
+console.log("/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTransformHelp.js->92");
+};
